@@ -9,7 +9,6 @@ public class Rectangle extends Shape {
                      double width, double length) {
 
         super(color, filled);
-
         this.width = width;
         this.length = length;
     }
