@@ -7,7 +7,9 @@ public class Rectangle extends Shape {
 
     public Rectangle(String color, boolean filled,
                      double width, double length) {
+
         super(color, filled);
+
         this.width = width;
         this.length = length;
     }
@@ -24,6 +26,7 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
+
         return "[ Rectangle ]\n" +
                super.toString() + "\n" +
                "Width : " + width + "\n" +
