@@ -6,6 +6,7 @@ public class Circle extends Shape {
 
     public Circle(String color, boolean filled,
                   double radius) {
+
         super(color, filled);
         this.radius = radius;
     }
@@ -22,6 +23,7 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
+
         return "[ Circle ]\n" +
                super.toString() + "\n" +
                "Radius: " + radius + "\n" +
