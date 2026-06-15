@@ -27,8 +27,8 @@ public class Circle extends Shape {
         return "[ Circle ]\n" +
                super.toString() + "\n" +
                "Radius: " + radius + "\n" +
-               String.format("Area         : %.2f", getArea()) + "\n" +
-               String.format("Circumference: %.2f", getPerimeter());
+               String.format("Area          : %.2f", getArea()) + "\n" +
+               String.format("Circumference : %.2f", getPerimeter());
     }
 
     public double getRadius() {
