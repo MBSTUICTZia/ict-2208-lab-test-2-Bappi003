@@ -18,4 +18,12 @@ public abstract class Shape {
         return "Color : " + color + "\n" +
                "Filled: " + (filled ? "Yes" : "No");
     }
+
+    public String getColor() {
+        return color;
+    }
+
+    public boolean isFilled() {
+        return filled;
+    }
 }
